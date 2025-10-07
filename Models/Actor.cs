@@ -20,6 +20,7 @@ namespace MovieManagementSystem.Models
         [MaxLength(100)]
         public string ActorName { get; set; }
         public DateTime BirthDate { get; set; }
+
         [Column(TypeName = "decimal(18,2)")]
         public decimal? NetWorth { get; set; }
         public Gender? Gender { get; set; }

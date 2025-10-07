@@ -21,3 +21,4 @@ namespace MovieManagementSystem.Models
         public ICollection<MovieGenre>? MovieGenres { get; set; }
     }
 }
+    

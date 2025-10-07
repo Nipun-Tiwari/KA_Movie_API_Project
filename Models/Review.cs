@@ -8,19 +8,18 @@ namespace MovieManagementSystem.Models
         public int ReviewId { get; set; }   
 
         [Required]
-        public int MovieId { get; set; }   // FK, not nullable
+        public int MovieId { get; set; }   
 
         [Required]
         [MaxLength(100)]
-        public string ReviewerName { get; set; }   // not nullable
+        public string ReviewerName { get; set; }   
 
         [MaxLength(500)]
-        public string? Comment { get; set; }   // nullable
+        public string? Comment { get; set; }  
 
         [Range(1, 5)]
-        public byte Stars { get; set; }   // not nullable (1-5 stars)
+        public byte Stars { get; set; }  
 
-        // Navigation
         public Movie Movie { get; set; } = null!;
     }
 }
