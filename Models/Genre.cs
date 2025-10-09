@@ -9,7 +9,8 @@ namespace MovieManagementSystem.Models
         Drama,
         Thriller,
         SciFi,
-        Horror
+        Horror, 
+        Romance
     }
     public class Genre
     {
